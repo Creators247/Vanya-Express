@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/offer.css'
+import '../assets/styles/Offer.css'
 import { FaLocationDot } from "react-icons/fa6";
 import { GiDeliveryDrone } from "react-icons/gi";
 import { RiCustomerService2Line } from "react-icons/ri";
