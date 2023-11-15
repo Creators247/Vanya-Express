@@ -1,0 +1,60 @@
+#location{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #location > div{
+    gap: 10px;
+    display: flex;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #location > div > h2{
+    color: var(--main-color--);
+  }
+  #location > section {
+    gap: 10px;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    background-color: var(--main-color--);
+  }
+  #location > section > div{
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: var(--bodycolor--);
+  }
+  #location  section > div  > span {
+    position: relative;
+    padding: 10px;
+  }
+  #location > section > div > span *{
+    width: 50px;
+    height: 50px;
+    color: var(--main-color--);
+  }
+  #location > section > div > div{
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  #location > section > div > div > h4{
+    color: #534101;
+  }
+  @media only screen and (max-width: 768px) {
+    #location > section{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #location > section > div {
+      width: 250px;
+      border: none;
+    }
+  }

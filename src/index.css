@@ -1,0 +1,43 @@
+:root {
+  --bodycolor--: #fff;
+  --main-color--: #dfa905;
+  --secondary-color--: #513601;
+  --header-font--: "DM Sans", sans-serif;
+  --para-fonts--: "Poppins", sans-serif;
+}
+body {
+  margin: 0%;
+}
+#root {
+  gap: 100px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  margin: 0;
+  line-height: 30px;
+  color: var(--bodycolor--);
+  font-family: var(--header-font--);
+}
+h2 {
+  margin: 0;
+  line-height: 20px;
+  color: var(--main-color--);
+  font-family: var(--header-font--);
+}
+h3 {
+  margin: 0;
+  color: var(--bodycolor--);
+  font-family: var(--header-font--);
+}
+h4 {
+  margin: 0;
+  color: var(--bodycolor--);
+  font-family: var(--header-font--);
+}
+p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--secondary-color--);
+  font-family: var(--para-fonts--);
+}

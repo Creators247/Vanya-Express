@@ -1,0 +1,58 @@
+#offer {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#offer > div {
+  display: flex;
+  color: var(--main-color--);
+  justify-content: center;
+}
+#offer > div > h2 {
+  color: var(--main-color--);
+}
+#offer h4 {
+  color: var(--secondary-color--);
+}
+#offer > section {
+  gap: 10px;
+  display: flex;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-color: var(--main-color--);
+}
+#offer > section .icons {
+  width: 50px;
+  height: 50px;
+  color: var(--main-color--);
+}
+#offer > section > div {
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: var(--bodycolor--);
+}
+#offer > section > div > div {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#offer > section > div > div p {
+  font-size: 15px;
+  color: var(--secondary-color--);
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #offer > section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #offer > section > div {
+    width: 250px;
+    border: none;
+  }
+}

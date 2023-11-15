@@ -1,0 +1,48 @@
+#testimonial {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#testimonial h2 {
+  color: var(--main-color--);
+}
+#testimonial > div {
+  gap: 10px;
+  display: flex;
+  padding: 0 10px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+#testimonial > .cardHolder  {
+    padding: 0;
+}
+#testimonial > .cardHolder > div {
+  max-width: 100%;
+  display: flex;
+  padding: 30px 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-direction: row;
+  background-color: var(--main-color--);
+}
+#testimonial > .cardHolder > div > div {
+  padding: 0 30px;
+}
+#testimonial > .cardHolder > div > div > .card {
+  display: flex;
+  height: 200px;
+  padding: 20px;
+  margin: 0 10px;
+  min-width: 300px;
+  background: white;
+  border-radius: 20px;
+  flex-direction: column;
+  border: 2px solid var(--secondary-color--);
+  justify-content: space-between;
+}
+@media only screen and (max-width: 425px) {
+  #testimonial  {
+    display: none;
+  }
+}
